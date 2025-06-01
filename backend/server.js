@@ -34,8 +34,8 @@ if (ENV_VARS.NODE_ENV === "production") {
 }
 
 // For Express.js
-app.listen(PORT, () => {
-	console.log(`Server running on port ${PORT}`);
-	connectDB();
+app.listen(PORT,() => {
+  console.log(`Server running on port ${PORT}`);
+  connectDB();
 });
 
